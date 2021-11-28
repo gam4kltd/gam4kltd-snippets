@@ -1,0 +1,26 @@
+{
+    "name": "gam4kltd-snippets",
+    "displayName": "gam4kltd-snippets",
+    "description": "Snippets for all of your coding needs!",
+    "version": "1.0.0",
+    "publisher": "Sebastian",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gam4kltd/gam4kltd-snippets.git"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
